@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+var a = prompt ("Proporcioname tu nombre beibe")
+
+var x = prompt (`Proporcioname tu edad chiqui ${a}`)
+
+
+var b = prompt ("Proporcioname el segundo nombre")
+
+var y = prompt ("Proporcioname la segunda edad" + b)
+
+
+var c = prompt ("Proporcioname el tercer nombre")
+
+var z = prompt ("Proporcioname la tercera edad" + c)
+
+
+var d = x > y ? c :y
+
+d = d > z ? d : z
+
+
+
+var nombre = ""
+
+
+ if (d==x) nombre = a
+ 	else if (d==y) nombre = b
+ 		else if (d==z) nombre = c
+
+	alert(`El numero mayor es : ${nombre} tiene: ${d}`)
+
+
+
+</script>
+</body>
+</html>
